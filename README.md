@@ -17,7 +17,6 @@
 - 李骏
 - 孟桢
 - 谢子怡
-
 <!-- TOML-LECTURERS: part="summary" -->
 
 <!-- TOML-ITEM: id="lecturers-summary-1" -->
