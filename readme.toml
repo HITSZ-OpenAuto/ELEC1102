@@ -1,20 +1,28 @@
-# 课程名称
 course_name = "产业实践"
-
-# 仓库类型: normal | multi-project
-repo_type = "normal"
-
-# 课程代码（沿用当前仓库标识）
 course_code = "ELEC1102"
-
-# 课程简介
+repo_type = "normal"
 description = """
 产业实践是通信工程（中外合作办学）专业本科一年级夏季学期的实践性课程，课程为期 2 周，共 2 学分。
 
 课程以专家讲座、企业及机构参访和技术交流为主，帮助学生了解信息产业、企业研发流程与技术应用，将所学专业知识与实际工作联系起来。
 """
 
-# ===== 章节列表 =====
+[lecturers]
+
+[[lecturers.intro]]
+content = "2026 年带队教师如下。**带队教师仅供参考，下一学年大概率会变。**"
+
+[[lecturers.items]]
+name = "李骏"
+
+[[lecturers.items]]
+name = "孟桢"
+
+[[lecturers.items]]
+name = "谢子怡"
+
+[[lecturers.summary]]
+content = "2026 年讲座嘉宾包括鹏城实验室的欧阳俊老师和华为专家王磊老师。"
 
 [[sections]]
 title = "考核方式"
@@ -48,9 +56,7 @@ content = """
 """
 
 [[sections.items]]
-content = """
-报告按课程提供的模板撰写，通过指定网盘提交电子版。提交时间和迟交扣分规则以当年通知为准；2026 年的迟交扣分规定为“成绩 -20%”。
-"""
+content = "报告按课程提供的模板撰写，通过指定网盘提交电子版。提交时间和迟交扣分规则以当年通知为准；2026 年的迟交扣分规定为“成绩 -20%”。"
 
 [[sections]]
 title = "参观企业与机构"
@@ -66,22 +72,3 @@ content = """
 - 中兴通讯
 - 时代速信
 """
-
-# ===== 教师信息 =====
-# 顺序: lecturers.intro → lecturers.items → lecturers.summary
-[lecturers]
-
-[[lecturers.intro]]
-content = "2026 年带队教师如下。**带队教师仅供参考，下一学年大概率会变。**"
-
-[[lecturers.items]]
-name = "李骏"
-
-[[lecturers.items]]
-name = "孟桢"
-
-[[lecturers.items]]
-name = "谢子怡"
-
-[[lecturers.summary]]
-content = "2026 年讲座嘉宾包括鹏城实验室的欧阳俊老师和华为专家王磊老师。"
