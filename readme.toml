@@ -1,97 +1,87 @@
 # 课程名称
-course_name = "课程中文名称"
+course_name = "产业实践"
 
 # 仓库类型: normal | multi-project
 repo_type = "normal"
 
-# 课程代码 (用于检索)
-course_code = "CODE1234"
+# 课程代码（沿用当前仓库标识）
+course_code = "ELEC1102"
 
 # 课程简介
 description = """
-在这里填写课程的简要介绍。
-可以换行。
+产业实践是通信工程（中外合作办学）专业本科一年级夏季学期的实践性课程，课程为期 2 周，共 2 学分。
+
+课程以专家讲座、企业及机构参访和技术交流为主，帮助学生了解信息产业、企业研发流程与技术应用，将所学专业知识与实际工作联系起来。
 """
 
 # ===== 章节列表 =====
+
 [[sections]]
 title = "考核方式"
 
-# 第一条内容
 [[sections.items]]
 content = """
-• 平时成绩: 30%
-• 期中考试: 30%
-• 期末考试: 40%
-"""
-# author 是可选的
-author = { name = "昵称A", date = "2025-03" }
+成绩由实践表现和实践报告两部分组成。以下考核要求以 2026 年为参考，后续以课程通知为准。
 
-# 第二条内容（同一章节下多条）
+| 考核项目 | 占比 | 内容 |
+| --- | --- | --- |
+| 实践表现 | 30% | 签到、实践纪律、问卷 |
+| 实践报告 | 70% | 对企业的认识、实践总结和个人心得 |
+"""
+
 [[sections.items]]
 content = """
-• 2024年: 期末 60% + 平时 40%
+- 无故缺席一次以上，考核成绩不合格。
+- 全部参观结束后，需扫码填写问卷，问卷完成情况计入实践表现。
+- 实践成绩低于 60 分者，须重新实践，重新实践期间费用自理。
 """
-author = { name = "昵称B", date = "2024-01" }
 
 [[sections]]
-title = "学习资料"
+title = "实践报告"
 
 [[sections.items]]
 content = """
-• 教材: 《书名》
-• 参考资料链接
+实践报告须独立完成，**不少于 2000 字**，内容准确、条理清楚，主要包括：
+
+1. 对企业文化、运作及生产流程、产品线的认识和了解。
+2. 对整个产业实践的总结，报告最后应包含个人心得体会。
 """
 
-# ===== 教师评价 (新 schema) =====
+[[sections.items]]
+content = """
+报告按课程提供的模板撰写，通过指定网盘提交电子版。提交时间和迟交扣分规则以当年通知为准；2026 年的迟交扣分规定为“成绩 -20%”。
+"""
+
+[[sections]]
+title = "参观企业与机构"
+
+[[sections.items]]
+content = """
+2026 年的参访单位包括：
+
+- 国家无线电监测中心深圳监测站
+- 迈腾电子
+- 速腾聚创
+- 大疆科技
+- 中兴通讯
+- 时代速信
+"""
+
+# ===== 教师信息 =====
 # 顺序: lecturers.intro → lecturers.items → lecturers.summary
 [lecturers]
 
-# 教师简介 (在教师列表之前，可以多条)
 [[lecturers.intro]]
-content = """
-教师团队总体介绍。
-人数: 3人
-"""
-author = { name = "管理员", date = "2025-01" }
-
-[[lecturers.intro]]
-content = """
-研究方向: 机器学习、计算机视觉
-"""
-author = { name = "管理员", date = "2025-01" }
-
-# 教师列表
-[[lecturers.items]]
-name = "教师A"
-
-[[lecturers.items.reviews]]
-content = """
-教师评价内容。
-可以多行。
-"""
-author = { name = "昵称", link = "https://github.com/xxx", date = "2025-03" }
-
-[[lecturers.items.reviews]]
-content = "另一条评价"
-author = { name = "匿名", date = "2025-01" }
+content = "2026 年带队教师如下。**带队教师仅供参考，下一学年大概率会变。**"
 
 [[lecturers.items]]
-name = "教师B"
+name = "李骏"
 
-[[lecturers.items.reviews]]
-content = "教师B的评价"
-author = { name = "学生", date = "2024-12" }
+[[lecturers.items]]
+name = "孟桢"
 
-# 教师总结 (在教师列表之后，可以多条)
-[[lecturers.summary]]
-content = """
-教师团队总结。
-整体教学水平较高。
-"""
-author = { name = "管理员", date = "2025-01" }
+[[lecturers.items]]
+name = "谢子怡"
 
 [[lecturers.summary]]
-content = """
-建议: 尽早选课，晚了好老师就没了
-"""
+content = "2026 年讲座嘉宾包括鹏城实验室的欧阳俊老师和华为专家王磊老师。"
